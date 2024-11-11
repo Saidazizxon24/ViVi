@@ -1,9 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
+import { FaPhotoVideo } from "react-icons/fa";
+
 
 const About = () => {
     return (
         <>
-            <div>
+            <section>
                 <div className="mb-10 pt-[112px] px-[20px] pb-[240px] mx-auto">
                     <div className="ml-20">
                         <h5 className="uppercase text-[#1171e9] tracking-wide text-base font-medium">YOU'RE IN GREAT COMPANY</h5>
@@ -101,7 +103,46 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            <section>
+                <div className="bg-[#344FB2]">
+                    <div className="">
+                        <div className="flex justify-center items-center gap-x-4 -translate-y-[40%]">
+                            <div className="bg-[#1171E9] text-white p-3 w-[390px] h-[510px] mb-5 rounded-xl">
+                                <img className="" src="https://www.vivi.io/wp-content/uploads/2024/02/classrom-engagement.png" alt="" />
+                                <h2 className="text-4xl font-semibold my-4">Classroom Engagement</h2>
+                                <p className="mb-3 font-medium text-sm">Give your teachers the freedom to teach from anywhere in the classroom and keep students actively involved, while maintaining control of the classroom display.</p>
+                            </div>
+                            <div className="bg-[#1171E9] text-white p-3 w-[390px] h-[510px] mb-5 rounded-xl">
+                                <img className="" src="https://www.vivi.io/wp-content/uploads/2024/02/Students_Hallway.png" alt="" />
+                                <h2 className="text-4xl font-semibold my-4">School Communications</h2>
+                                <p className="mb-3 font-medium text-sm">From dynamic digital signage to video and text announcements, Vivi equips your team to connect and engage with your community.</p>
+                            </div>
+                            <div className="bg-[#1171E9] text-white p-3 w-[390px] h-[510px] mb-5 rounded-xl">
+                                <img className="" src="https://www.vivi.io/wp-content/uploads/2024/05/Hallway1.png" alt="" />
+                                <h2 className="text-4xl font-semibold my-4">School Safety</h2>
+                                <p className="mb-3 font-medium text-sm">Strengthen your school's emergency protocols with visual alerts delivered directly to connected displays.</p>
+                            </div>
+                        </div>
+                        <div className="flex justify-around items-center">
+                            <div>
+                                <div className="flex justify-around items-center gap-4 w-[600px] bg-[#370B6E] text-white p-3 rounded-xl">
+                                    <div className="w-6 h-6 bg-white">
+                                        <FaPhotoVideo className="text-black"/>
+                                    </div>
+                                    <div>
+                                        <h5>Connected to tools you already use</h5>
+                                        <p>Play PowePoints,Google Slides,videos,and other resources with just a click.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <img className="w-[400px] h-[270px]" src="https://www.vivi.io/wp-content/uploads/2024/02/MacBook-Vivi-Center_cropped.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </>
     )
 }
