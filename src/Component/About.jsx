@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
-import { FaPhotoVideo } from "react-icons/fa";
+import { FaCopy } from "react-icons/fa";
+import { FaTachographDigital } from "react-icons/fa6";
+import { CgGoogleTasks } from "react-icons/cg";
 
 
 const About = () => {
@@ -32,71 +34,71 @@ const About = () => {
                             </div>
                             <div className="relative">
                                 <a href="">
-                                    <img 
-                                        src="https://www.vivi.io/wp-content/uploads/2024/02/St-Michaels-College-Logo_grey.png" 
+                                    <img
+                                        src="https://www.vivi.io/wp-content/uploads/2024/02/St-Michaels-College-Logo_grey.png"
                                         alt="grey_icon"
                                         className="transition-opacity duration-300 ease-in-out"
                                     />
                                     <img
-                                        src="https://www.vivi.io/wp-content/uploads/2024/02/St-Michaels-College-Logo.png" 
+                                        src="https://www.vivi.io/wp-content/uploads/2024/02/St-Michaels-College-Logo.png"
                                         alt="blue_icon"
-                                        className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out" 
+                                        className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"
                                     />
                                 </a>
                             </div>
                             <div className="relative">
                                 <a href="">
-                                    <img 
-                                        src="https://www.vivi.io/wp-content/uploads/2024/02/Grand-Rapids-Public-Schools_grey.png" 
+                                    <img
+                                        src="https://www.vivi.io/wp-content/uploads/2024/02/Grand-Rapids-Public-Schools_grey.png"
                                         alt="grey_icon"
                                         className="transition-opacity duration-300 ease-in-out"
                                     />
                                     <img
-                                        src="https://www.vivi.io/wp-content/uploads/2024/02/Grand-Rapids-Public-Schools_clr.png" 
+                                        src="https://www.vivi.io/wp-content/uploads/2024/02/Grand-Rapids-Public-Schools_clr.png"
                                         alt="blue_icon"
-                                        className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out" 
+                                        className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"
                                     />
                                 </a>
                             </div>
                             <div className="relative">
                                 <a href="">
-                                    <img 
-                                        src="https://www.vivi.io/wp-content/uploads/2024/02/marryatville_grey.png" 
-                                        alt="grey_icon" 
-                                        className="transition-opacity duration-300 ease-in-out"
-                                    />
-                                    <img 
-                                        src="https://www.vivi.io/wp-content/uploads/2024/02/marryatville.png" 
-                                        alt="blue_icon" 
-                                        className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out" 
-                                    />
-                                </a>
-                            </div>
-                            <div className="relative">
-                                <a href="">
-                                    <img 
-                                        src="https://www.vivi.io/wp-content/uploads/2024/02/logo_CGHS_grey.png" 
+                                    <img
+                                        src="https://www.vivi.io/wp-content/uploads/2024/02/marryatville_grey.png"
                                         alt="grey_icon"
                                         className="transition-opacity duration-300 ease-in-out"
                                     />
-                                    <img 
-                                        src="https://www.vivi.io/wp-content/uploads/2024/02/logo_CGHS.png" 
-                                        alt="blue_icon" 
-                                        className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out" 
+                                    <img
+                                        src="https://www.vivi.io/wp-content/uploads/2024/02/marryatville.png"
+                                        alt="blue_icon"
+                                        className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"
                                     />
                                 </a>
                             </div>
                             <div className="relative">
                                 <a href="">
-                                    <img 
-                                        src="https://www.vivi.io/wp-content/uploads/2024/02/Kensington_Park_School_grey.png" 
+                                    <img
+                                        src="https://www.vivi.io/wp-content/uploads/2024/02/logo_CGHS_grey.png"
                                         alt="grey_icon"
-                                        className="transition-opacity duration-300 ease-in-out" 
+                                        className="transition-opacity duration-300 ease-in-out"
                                     />
-                                    <img 
-                                        src="https://www.vivi.io/wp-content/uploads/2024/02/Kensington_Park_School_clr.png" 
-                                        alt="blue_icon" 
-                                        className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out" 
+                                    <img
+                                        src="https://www.vivi.io/wp-content/uploads/2024/02/logo_CGHS.png"
+                                        alt="blue_icon"
+                                        className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"
+                                    />
+                                </a>
+                            </div>
+                            <div className="relative">
+                                <a href="">
+                                    <img
+                                        src="https://www.vivi.io/wp-content/uploads/2024/02/Kensington_Park_School_grey.png"
+                                        alt="grey_icon"
+                                        className="transition-opacity duration-300 ease-in-out"
+                                    />
+                                    <img
+                                        src="https://www.vivi.io/wp-content/uploads/2024/02/Kensington_Park_School_clr.png"
+                                        alt="blue_icon"
+                                        className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"
                                     />
                                 </a>
                             </div>
@@ -124,22 +126,44 @@ const About = () => {
                                 <p className="mb-3 font-medium text-sm">Strengthen your school's emergency protocols with visual alerts delivered directly to connected displays.</p>
                             </div>
                         </div>
-                        <div className="flex justify-around items-center">
-                            <div>
-                                <div className="flex justify-around items-center gap-4 w-[600px] bg-[#370B6E] text-white p-3 rounded-xl">
-                                    <div className="w-6 h-6 bg-white">
-                                        <FaPhotoVideo className="text-black"/>
+                        <div className="flex justify-center items-center p-8">
+                            <div className="space-y-4">
+                                <div className="flex items-center gap-4 w-[450px] bg-white text-[#3D1A75] p-4 rounded-xl shadow-lg">
+                                    <div className="w-10 h-10 bg-[#3D1A75] rounded-full flex items-center justify-center">
+                                        <FaCopy  className="text-white"/>
                                     </div>
                                     <div>
-                                        <h5>Connected to tools you already use</h5>
-                                        <p>Play PowePoints,Google Slides,videos,and other resources with just a click.</p>
+                                        <h5 className="font-semibold">Connected to tools you already use</h5>
+                                        <p className="text-sm">Play PowerPoints, Google Slides, videos and other resources with just a click.</p>
+                                    </div>
+                                </div>
+
+                                <div className="flex items-center gap-4 w-[450px] bg-[#4A148C] text-white p-4 rounded-xl shadow-lg">
+                                    <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                                        <CgGoogleTasks   className="text-[#3D1A75]"/>
+                                    </div>
+                                    <div>
+                                        <h5 className="font-semibold">Manage everything from one spot</h5>
+                                        <p className="text-sm">Deploy, maintain and update your connected displays from a single central location.</p>
+                                    </div>
+                                </div>
+
+                                <div className="flex items-center gap-4 w-[450px] bg-[#4A148C] text-white p-4 rounded-xl shadow-lg">
+                                    <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                                        <FaTachographDigital className="text-[#3D1A75]"/>
+                                    </div>
+                                    <div>
+                                        <h5 className="font-semibold">Powerful digital signage</h5>
+                                        <p className="text-sm">Share school calendars, showcase upcoming events, highlight student work.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div>
-                                <img className="w-[400px] h-[270px]" src="https://www.vivi.io/wp-content/uploads/2024/02/MacBook-Vivi-Center_cropped.png" alt="" />
+
+                            <div className="ml-10">
+                                <img className="w-[500px] h-[340px] rounded-lg" src="https://www.vivi.io/wp-content/uploads/2024/02/MacBook-Vivi-Center_cropped.png" alt="Laptop Mockup" />
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
