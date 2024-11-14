@@ -107,7 +107,7 @@ const About = () => {
                 </div>
             </section>
             <section>
-                <div className="bg-[#344FB2]">
+                <div className="bg-[#344FB2] relative">
                     <div className="">
                         <div className="flex justify-center items-center gap-x-4 -translate-y-[40%]">
                             <div className="bg-[#1171E9] text-white p-3 w-[390px] h-[510px] mb-5 rounded-xl">
